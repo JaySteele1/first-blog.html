@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+            <style type="text/css">
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 18pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 25pt;
+    color: #0000ff;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background: -webkit-radial-gradient(circle, lightblue, red, yellow);
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 18pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #3366cc;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #efefef;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: -webkit-linear-gradient(left, #0066ff, #00ff00);
+}
+progress::-moz-progress-bar {
+    color: #efefef
+    background:-moz-linear-gradient(left, #0066ff, #00ff00);
+}
+progress::-ms-progress-bar {
+    background: #efefef
+}             
+progress::-ms-progress-value {
+    background:-ms-linear-gradient(left, #0066ff, #00ff00);
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #ff3300;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #ff3300;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+        </style>
+    </head>
+    <body>
+        <!--Header starts-->
+        <div id="header" clas="section">
+        <img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
+            <p>Justin Steele</p>
+        </div>
+        <!--Header End-->
+        
+        <!--about me starts-->
+        <div class="section">
+            <h1><span><b>ABOUT ME</b></span></h1>
+            <p>Hlelo! My nmae is <strong>Jsuitn</strong>, feridns clal me <b>Jay</b>. Laernig to cdoe has been so mcuh fun. I wsih i wolud hvae srtaetd wehn I was yuonegr. I deicedd to go itno atumotovie isnetad, but atfer 15 yeras of wrnehcnig its tmie a for a cahgne! I srtaetd laenrnig hmtl and css beignnnig in Fbeurray and I coedd tihs bolg bferoe the end of the motnh. I moevd to Clorodao bcak in Macrh of 2006. I hvae been baodrnig for amlsot 20 yeras. My son, who is ten, has deicedd taht aeftr 5 yeras of siknig he is now a snwoobraedr. It maeks a ftaehr pruod!
+            </p>
+            <p class="quote">"Knwoelgde is 90% epxreeicne"</p>
+        </div>
+        <!--about me section end-->
+        
+        <!--my schedule section start-->
+        <div class="section">
+            <h1><span>MY CODING SCHEDULE</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>12-1 and 6-930</td>
+                    <td class="selected">Learn/Practice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12-1 and 6-930</td>
+                    <td></td>
+                    <td class="selected">Learn/Pratice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12-1 and 6-800</td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Learn/Practice</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12-1 and 6-830</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Learn/Practice</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12-1 and 6-10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Learn/Practice</td>
+                </tr>
+            </table>
+        </div>
+        <!--My schedule end-->
+        
+        <!--My skills section starts-->
+        <div class="section">
+            <h1><span>MY SKILLS</span></h1>
+            <ul>
+                <li>HTML<br />
+                    <progress min="0" max="100" value="100"></progress>
+                </li>
+                <li>CSS<br />
+                    <progress min="0" max="100" value="100"></progress>
+                <li>PYTHON 3<br />
+                    <progress min="0" max="100" value="5"></progress>
+                </li>
+                <li>C++<br />
+                    <progress min="0" max="100" value="5"></progress>
+                </li>
+                <li>SWIFT<br />
+                    <progress min="0" max="100" value="7"></progress>
+                </li>
+                <li>JAVA<br />
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>JS<br /> 
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+            </ul>
+        </div>
+        <!--My skills end-->
+                
+                
+        <!--My Media starts-->
+        <div class="secion">
+            <h1><span>MY MEDIA</span></h1>
+            <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
+        </div>
+        <!--Media Section End-->
+                
+            5
+        <!-- Form section start -->
+       <div class="section">
+            <h1><span>Contact Me</span></h1>
+            <svg class="face" height="100" width="100">
+                 <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                 <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                 <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                 <circle cx="30" cy="30" r="5" fill="#000000"/>
+                 <circle cx="70" cy="30" r="5" fill="#000000"/>
+                 <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke width="5" fill="none"/>
+           </svg>
+            <form>
+                <input name="name" placeholder="Name:" type="text" required /><br/>
+                <input name="email" placeholder="Email:" type="email" required /><br/>
+                <textarea name="message" placeholder="Message:" requierd></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- End of form section-->
+    </body>
+</html>
